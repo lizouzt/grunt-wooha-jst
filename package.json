@@ -1,7 +1,7 @@
 {
   "name": "grunt-wooha-jst",
   "description": "Compile underscore templates to JST file that can be either exposed as a module or cmd module.And sync file compile supported.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/lizouzt/grunt-wooha-jst",
   "author": {
     "name": "Tao.z",
