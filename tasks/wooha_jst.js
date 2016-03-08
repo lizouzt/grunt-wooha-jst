@@ -123,7 +123,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerMultiTask('jst', 'Compile underscore templates to JST file that can be either exposed as a module or cmd module.And sync file compile supported.', function() {
+  grunt.registerMultiTask('wooha_jst', 'Compile underscore templates to JST file that can be either exposed as a module or cmd module.And sync file compile supported.', function() {
     initParams.apply(this, arguments);
     filesCache = this.files;
     compileFile(this.files);
