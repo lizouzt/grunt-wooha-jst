@@ -1,0 +1,47 @@
+{
+  "name": "grunt-wooha-jst",
+  "description": "Compile underscore templates to JST file that can be either exposed as a module or cmd module.And sync file compile supported.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/lizouzt/grunt-wooha-jst",
+  "author": {
+    "name": "Tao.z",
+    "email": "lizouzt@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lizouzt/grunt-wooha-jst.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lizouzt/grunt-wooha-jst/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lizouzt/grunt-wooha-jst/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "grunt-lib-contrib": "~0.7.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-internal": "~0.4.5",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
