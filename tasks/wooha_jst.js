@@ -25,6 +25,11 @@ module.exports = function(grunt) {
 
     try {
       compiled = _.template(src, false, options.templateSettings).source;
+
+      /*
+      * babelify
+      * */
+      compiled = compiled.replace(/with( *)\(obj\)/, 'if(obj)');
     } catch (e) {
       grunt.log.error(e);
       grunt.fail.warn('JST ' + chalk.cyan(filepath) + ' failed to compile.');
